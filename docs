@@ -1,0 +1,26 @@
+# User Story: View Orders
+**ID:** IS-001  
+**Title:** Screen Form “Delivery of Orders” – UI and Commands  
+
+**Statement of Value:**  
+As a Delivery Manager, I want to view the list of orders scheduled for delivery today so that I can efficiently plan deliveries.
+
+**Details:**  
+- Display orders in a table with the following columns:
+  - Order ID
+  - Customer Name
+  - Delivery Address
+  - Status (Pending, Delivered)
+- Buttons for adding, editing, and deleting orders.
+- Validation for input fields:
+  - Address must not be empty.
+  - Status must be selected from predefined options.
+
+**Acceptance Criteria:**  
+1. Orders displayed match database entries.
+2. Adding an order updates the database.
+3. Invalid inputs trigger an error message.
+
+**Additional Artifacts:**  
+- [Form Mockup](../mockups/form_mockup.png)
+- [Report Example](../mockups/report_mockup.png)
